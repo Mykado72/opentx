@@ -26,6 +26,7 @@
 #else
   int16_t rawAnas[NUM_INPUTS] = {0};
 #endif
+maxTimeRecorder mixerMaxTime;
 
 int16_t  anas [NUM_INPUTS] = {0};
 int16_t  trims[NUM_TRIMS] = {0};
